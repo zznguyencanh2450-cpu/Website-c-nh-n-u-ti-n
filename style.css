@@ -1,0 +1,81 @@
+/* Reset cơ bản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #1a73e8;
+  color: #fff;
+  padding: 15px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  width: 80%;
+  margin: 20px auto;
+}
+
+article img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+article h2 {
+  margin: 10px 0;
+  color: #1a73e8;
+}
+
+button {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0d47a1;
+}
+
+.other-news {
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: #fff;
+  margin-top: 30px;
+}
